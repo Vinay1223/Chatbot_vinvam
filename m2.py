@@ -20,7 +20,7 @@ prompt = ChatPromptTemplate.from_messages(
 
 # Streamlit app configuration
 st.set_page_config(
-    page_title="LangChain Demo",
+    page_title="Intelligent-Bot",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -31,7 +31,7 @@ with st.sidebar:
     st.title("About")
     st.write(
         """
-        🤖 **LangChain Demo App**  
+        🤖 **VINVAM-BOT**  
         Powered by **Gemini API** and **LangChain**.  
         Enter a question to get an AI-powered response.  
         """
@@ -41,7 +41,7 @@ with st.sidebar:
     st.markdown("[Streamlit Documentation](https://docs.streamlit.io)")
 
 # App title
-st.title("🤖 LangChain Demo with Gemini API")
+st.title("🤖 VINVAM BOT ")
 st.markdown("### Explore AI-powered responses. Type your question below or select a suggestion!")
 
 # Suggestions for questions
@@ -50,6 +50,7 @@ suggested_questions = [
     "How does LangChain work?",
     "Explain large language models.",
     "What are the applications of Generative AI?"
+    'How old are you?'
 ]
 
 selected_question = st.selectbox("Choose a suggested question:", [""] + suggested_questions)
