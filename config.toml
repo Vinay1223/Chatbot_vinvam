@@ -1,0 +1,7 @@
+[theme]
+base = "dark"
+primaryColor = "#1DB954"  # Vibrant green for premium style
+backgroundColor = "#121212"  # Dark black for the main background
+secondaryBackgroundColor = "#1E1E1E"  # Slightly lighter black for contrast
+textColor = "#FFFFFF"  # White text for readability
+font = "sans-serif"  # Modern and clean font
