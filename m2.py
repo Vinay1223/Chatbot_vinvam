@@ -20,7 +20,7 @@ prompt = ChatPromptTemplate.from_messages(
 
 # Streamlit app configuration
 st.set_page_config(
-    page_title="Informative-BOT ",
+    page_title="LangChain Demo",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -31,7 +31,7 @@ with st.sidebar:
     st.title("About")
     st.write(
         """
-        🤖 **BoT- Bring on Top**  
+        🤖 **LangChain Demo App**  
         Powered by **Gemini API** and **LangChain**.  
         Enter a question to get an AI-powered response.  
         """
