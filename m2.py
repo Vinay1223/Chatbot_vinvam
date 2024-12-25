@@ -49,7 +49,7 @@ suggested_questions = [
     "What is AI?",
     "How does LangChain work?",
     "Explain large language models.",
-    "What are the applications of Generative AI?"
+    "What are the applications of Generative AI?",
     'How old are you?'
 ]
 
