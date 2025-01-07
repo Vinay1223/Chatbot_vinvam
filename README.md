@@ -60,7 +60,7 @@ Follow these steps to set up and run the application:
   |--- app.py
   |--- .env
   |--- requirements.txt
-  |--- readme.md
+  |--- README.md
 ```
 
 ## 🌟 Key Features Highlighted in the Code
