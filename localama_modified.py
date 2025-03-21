@@ -8,6 +8,7 @@ import os
 #### Load environment variables
 load_dotenv()
 ###
+
 # Environment setup
 os.environ['LANGCHAIN_TRACING_V2'] = 'true'
 
