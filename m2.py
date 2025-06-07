@@ -6,7 +6,6 @@ from langchain_core.output_parsers import StrOutputParser
 import os
 
 load_dotenv()
-## One more comment
 # Configure API key for Google Gemini
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))  # Ensure the API key is loaded properly
 
