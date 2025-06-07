@@ -8,7 +8,7 @@ import os
 #### Load environment variables
 load_dotenv()
 
-# Environment setup
+# Environment setup 
 os.environ['LANGCHAIN_TRACING_V2'] = 'true'
 
 # Prompt template
@@ -18,7 +18,7 @@ prompt = ChatPromptTemplate.from_messages(
         ('user', 'Question:{question}')
     ]
 )
-## This is just a comment
+
 # Streamlit app configuration
 st.set_page_config(
     page_title="LangChain Demo",
